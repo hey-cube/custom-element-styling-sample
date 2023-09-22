@@ -1,0 +1,27 @@
+:host {
+  --color-1: red;
+}
+
+:where(:host, :root) {
+  --color-2: orange;
+}
+
+:where(.aaa, .bbb) {
+  --color-3: pink;
+}
+
+.case1 {
+  background: var(--color-1);
+}
+
+.case2 {
+  background: var(--color-2);
+}
+
+.aaa {
+  background: var(--color-3);
+}
+
+.bbb {
+  background: var(--color-3);
+}

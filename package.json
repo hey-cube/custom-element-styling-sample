@@ -1,0 +1,16 @@
+{
+  "name": "custom-element-styling-sample",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "repository": "git@github.com:hey-cube/custom-element-styling-sample.git",
+  "author": "hey-cube <tales.phan.x@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "parcel",
+    "build": "rm -f build/*; parcel build --dist-dir build"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
